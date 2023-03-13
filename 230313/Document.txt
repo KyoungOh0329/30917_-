@@ -1,0 +1,5 @@
+오늘 실습.
+img 태그(chrome image link copy -> img src 붙여넣기)와 
+youtube 영상 웹사이트에 불러오기.(공유 -> 퍼가기) 기능을 배웠다.
+
+매우 유익했따 ^^
