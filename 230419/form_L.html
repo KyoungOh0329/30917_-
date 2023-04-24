@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #name,# {background-color: aquamarine;}
+    
+</style>
+<body>
+    <div class="login-wrapper">
+        <h2>회원가입</h2>
+        <form method="post" action="서버의url" id="login-form">
+            <fieldset>
+                <legend>파일 제출</legend>
+                <label for="id">아이디 : </label><input id="id" type="text" name="userName"><br>
+                <label for="password">비밀번호 : </label><input type="password" name="userPassword"><br>
+                <label for="mail">이메일 : </label><input type="email" name="userPassword"><br>
+                <label for="name">항목 : </label>
+                    <label id="po">포트폴리오</label><input id="po" type="radio" name="gender">
+                    <label id="pj">개인 프로젝트</label><input id="pj" type="radio" name="gender">
+                    <label id="popj">수업 과제물</label><input id="popj" type="radio" name="gender">
+                <br>
+                <br>
+                <div id="chack">
+                    <label for="name" id="name">사용언어 : </label>
+                    <label id="html">HTML</label><input id="html" type="checkbox" name="xxx">
+                    <label id="css">CSS</label><input id="css" type="checkbox" name="xxx">
+                    <label id="js">JS</label><input id="js" type="checkbox" name="xxx">
+                </div>
+            <label>작성파일 : </label><input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+            <div>
+                <label>자기소개 : </label><textarea name="자기소개 : " rows = "5" cols = "30" name = "description">간단하게 입력하세요.</textarea>
+            </div>
+            <label>국적</label>
+            <SELECT NAME=sltSample SIZE=1>
+                <OPTION VALUE=1>KOREA</OPTION>
+            </SELECT>
+            <br>
+            <input type="submit" value="제출">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
